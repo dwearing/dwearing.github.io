@@ -1,0 +1,30 @@
+body {background-color:ivory}
+    p {color:blue;font-size:130%}
+    ul {color:red;font-size:100%}
+    a {font-family:Georgia}
+    img {width: 250px;}
+
+a {font-size:120%}
+nav {
+    display: flex; /* 1 */
+    justify-content: space-between; /* 2 */
+    padding: 0px 0px; /* 3 */
+    background: #cfd8dc; /* 4 */
+}
+nav h2 {
+    margin: 0px 0px;
+}
+nav ul {
+    display: flex; /* 5 */
+    list-style: none; /* 6 */
+    margin: 0px 0px;
+}
+
+nav li {
+    padding-left: 1rem; /* 7! */
+}
+
+table, th, td {
+    border: 1px solid;
+}
+
